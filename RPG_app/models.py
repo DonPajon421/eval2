@@ -1,6 +1,6 @@
-from django.core.validators import MinValueValidator
-from django.db import models
-from django.utils import timezone
+from django.core.validators import MinValueValidator # type: ignore
+from django.db import models # type: ignore
+from django.utils import timezone # type: ignore
 
 
 class Cuenta(models.Model):
